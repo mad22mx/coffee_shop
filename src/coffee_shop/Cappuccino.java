@@ -4,7 +4,7 @@ public class Cappuccino implements Coffee{
 
 	@Override
 	public void make_coffee() {
-		// TODO Auto-generated method stub
+		System.out.println("Your Cappuccino is ready, Enjoy!");
 		
 	}
 

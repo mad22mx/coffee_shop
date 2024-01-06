@@ -7,5 +7,9 @@ public class Espresso implements Coffee {
 		System.out.println("Your Espresso is ready, Enjoy!");
 		
 	}
+	@Override
+	public String toString() {
+		return "Espresso";
+	}
 
 }

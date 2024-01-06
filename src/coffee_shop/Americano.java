@@ -7,5 +7,9 @@ public class Americano implements Coffee {
 		System.out.println("Your Americano is ready, Enjoy!");
 		
 	}
+	@Override
+	public String toString() {
+		return "Americano";
+	}
 
 }

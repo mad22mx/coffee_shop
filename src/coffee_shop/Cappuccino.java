@@ -7,5 +7,9 @@ public class Cappuccino implements Coffee{
 		System.out.println("Your Cappuccino is ready, Enjoy!");
 		
 	}
+	@Override
+	public String toString() {
+		return "Cappuccino";
+	}
 
 }

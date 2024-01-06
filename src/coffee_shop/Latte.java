@@ -7,5 +7,9 @@ public class Latte implements Coffee {
 		System.out.println("Your Latte is ready, Enjoy!");
 		
 	}
+	@Override
+	public String toString() {
+		return "Latte";
+	}
 
 }
